@@ -1,9 +1,52 @@
-$ git clone ssh://git@stash.devlan.net:7999/~User #524297/git-prune-files.git
-$ sudo cp git-prune-files/git-prune-files /usr/bin
-$ sudo chmod +x /usr/bin/git-prune-files
+# Prerequisites
+*.d
 
-# Change to your project directory
-$ cd ~/projects/my-git-project
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
 
-# Remove the relevant files
-$ git-prune-files static/images
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
